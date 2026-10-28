@@ -1,0 +1,10 @@
+# نسخه‌ها عمداً قفل شده‌اند. بعد از هر تغییر: pip-audit -r requirements.txt
+# برای قفل با هش (امن‌ترین): pip install pip-tools && pip-compile --generate-hashes requirements.in
+# سپس نصب با: pip install --require-hashes -r requirements.txt
+argon2-cffi==23.1.0
+argon2-cffi-bindings==21.2.0
+cffi==1.17.1
+pycparser==2.22
+psycopg[binary]==3.2.3
+psycopg-binary==3.2.3
+typing-extensions==4.12.2
